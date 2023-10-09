@@ -12,3 +12,12 @@ adaptor:
     tag: linkerdSMIVersionValue
     # -- Pull policy  for the adaptor instance
     pullPolicy: IfNotPresent
+
+  # -- SMI adaptor resource requests & limits
+  resources:
+    requests:
+      cpu: "100m"
+      memory: "20Mi"
+    limits:
+      cpu: "100m"
+      memory: "20Mi"

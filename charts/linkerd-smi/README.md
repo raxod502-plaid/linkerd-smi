@@ -68,6 +68,7 @@ Kubernetes: `>=1.16.0-0`
 | adaptor.image.pullPolicy | string | `"IfNotPresent"` | Pull policy  for the adaptor instance |
 | adaptor.image.registry | string | `"cr.l5d.io/linkerd"` | Docker registry for the adaptor instance |
 | adaptor.image.tag | string | `"linkerdSMIVersionValue"` | Docker image tag for the adaptor instance |
+| adaptor.resources | object | `{"limits":{"cpu":"100m","memory":"20Mi"},"requests":{"cpu":"100m","memory":"20Mi"}}` | SMI adaptor resource requests & limits |
 | clusterDomain | string | `"cluster.local"` | Kubernetes DNS Domain name to use |
 
 ----------------------------------------------
