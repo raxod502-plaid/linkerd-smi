@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   linkerd-smi:
   - apiVersion: v1
-    created: "2023-10-09T12:20:18.608447-07:00"
+    created: "2023-10-10T11:39:53.964498-07:00"
     description: 'The Linkerd-SMI extension adds SMI adaptor to the Linkerd install '
     digest: 08dc2c806227322b7f2023755e3c687ff85ab9ceb3784543b882249b1c16b53a
     home: https://linkerd.io
@@ -20,4 +20,23 @@ entries:
     urls:
     - https://raxod502-plaid.github.io/linkerd-smi/linkerd-smi-1.0.1-rr1.tgz
     version: 1.0.1-rr1
-generated: "2023-10-09T12:20:18.607939-07:00"
+  - apiVersion: v1
+    created: "2023-10-10T11:39:53.963905-07:00"
+    description: 'The Linkerd-SMI extension adds SMI adaptor to the Linkerd install '
+    digest: 825662c80c906ea928cf541c2c97f6ad48494fb3b613dcb7e3b0f442638abd6a
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    name: linkerd-smi
+    sources:
+    - https://github.com/linkerd/linkerd-smi/
+    urls:
+    - https://raxod502-plaid.github.io/linkerd-smi/linkerd-smi-0.2.0-rr1.tgz
+    version: 0.2.0-rr1
+generated: "2023-10-10T11:39:53.963458-07:00"
